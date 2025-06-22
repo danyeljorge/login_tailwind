@@ -30,7 +30,7 @@
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
     --color-primary: #742F80;
-    --bg-image: url(/src/bg-image.jpg);
+    --bg-image: url(/asset/bg-image.jpg);
   }
 }
 @layer base {
