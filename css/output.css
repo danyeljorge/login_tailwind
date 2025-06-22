@@ -273,14 +273,14 @@
   .border-fuchsia-300 {
     border-color: var(--color-fuchsia-300);
   }
+  .bg-\(--color-primary\) {
+    background-color: var(--color-primary);
+  }
   .bg-fuchsia-900 {
     background-color: var(--color-fuchsia-900);
   }
   .bg-white {
     background-color: var(--color-white);
-  }
-  .bg-\(image\:--bg-image\) {
-    background-image: var(--bg-image);
   }
   .bg-cover {
     background-size: cover;
