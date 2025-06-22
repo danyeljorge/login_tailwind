@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/output.css" rel="stylesheet" />
+    <title>LOGIN PAGE - TAILWIND</title>
+  </head>
+  <body
+    class="overflow-x-hidden bg-[url(/src/bg-image.jpg)] bg-center bg-no-repeat bg-cover w-full h-screen"
+  >
+    <nav class="w-full flex items-center justify-between p-6 pl-10 pr-10 gap-5">
+      <h1 class="text-white text-4xl font-bold flex-1">Company</h1>
+      <div class="hidden md:flex flex-1 justify-between gap-5">
+        <a
+          class="text-white font-medium hover:text-fuchsia-300 duration-150"
+          href="#"
+          >Home</a
+        >
+
+        <a
+          class="text-white font-medium hover:text-fuchsia-300 duration-150"
+          href="#"
+          >Sobre</a
+        >
+
+        <a
+          class="text-white font-medium hover:text-fuchsia-300 duration-150"
+          href="#"
+          >Serviços</a
+        >
+
+        <a
+          class="text-white font-medium hover:text-fuchsia-300 duration-150"
+          href="#"
+          >FAQ</a
+        >
+
+        <a
+          class="text-white font-medium hover:text-fuchsia-300 duration-150"
+          href="#"
+          >Contatos</a
+        >
+      </div>
+      <input
+        type="search"
+        placeholder="Search"
+        class="w-40 bg-white outline-none h-8 rounded-3xl focus:bg-fuchsia-200 focus:border-b-fuchsia-950 duration-200 pl-5 pr-5 text-(--color-primary) font-bold"
+      />
+    </nav>
+    <section class="w-full h-auto flex items-center justify-center">
+      <div
+        class="esquerda hidden md:flex w-1/2 h-full m-10 ml-20 mt-20 flex-col justify-center"
+      >
+        <h1 class="font-bold text-white text-5xl">LANDING PAGE</h1>
+        <p class="w-lg mt-10 text-white text-lg font-medium">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Non totam
+          ipsum necessitatibus quam nulla quas laudantium quidem nisi fugit,
+          nemo optio officiis at blanditiis vitae aperiam voluptatem. Nobis,
+          consectetur facilis!
+        </p>
+        <input
+          type="submit"
+          value="Saiba Mais"
+          class="mt-15 bg-fuchsia-900 text-white font-bold rounded-3xl w-32 h-10 hover:bg-fuchsia-800 duration-150 cursor-pointer"
+        />
+      </div>
+      <div class="direita w=full md:w-1/2 h-full mt-20">
+        <div class="login w-96 h-96 bg-white rounded-3xl">
+          <h1 class="text-fuchsia-600 font-bold text-center text-2xl p-10">
+            LOGIN
+          </h1>
+          <form class="w-full p-5">
+            <input
+              type="text"
+              placeholder="Seu melhor e-mail"
+              class="border-2 border-fuchsia-300 w-full h-10 rounded-3xl pl-5 pr-5 mb-5 outline-none focus:bg-fuchsia-200 font-bold text-(--color-primary)"
+            />
+            <input
+              type="password"
+              placeholder="***********"
+              class="border-2 border-fuchsia-300 w-full h-10 rounded-3xl pl-5 pr-5 mb-5 outline-none focus:bg-fuchsia-200 font-bold text-(--color-primary)"
+            />
+            <input
+              type="submit"
+              value="Entrar"
+              class="w-full h-10 bg-fuchsia-900 text-white font-bold rounded-3xl cursor-pointer hover:bg-fuchsia-800 duration-150"
+            />
+          </form>
+
+          <p class="text-center text-fuchsia-900 font-medium">
+            Não tem Cadastro?
+            <a
+              class="text-fuchsia-600 hover:text-fuchsia-900 duration-200"
+              href="#"
+              >Cadastre-se</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
